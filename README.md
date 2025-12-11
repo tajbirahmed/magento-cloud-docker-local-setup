@@ -140,6 +140,7 @@ After this, navigate to https://localhost
 
 ## Disable 2FA Module
 
+Access shell of `fpm` and run this to disable 2FA
 ```
 bin/magento module:disable Magento_TwoFactorAuth
 bin/magento cache:flush
